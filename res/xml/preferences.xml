@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        <EditTextPreference android:key="Name" android:title="Name" android:summary="Enter Your Name"/>
+        <EditTextPreference android:key="Message" android:title="Emergency Message" android:summary="Emergency Message Text"/>
+</PreferenceScreen>

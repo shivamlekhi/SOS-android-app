@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/ContactImage">
+
+        <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ContactName"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="Contact Name"
+                android:textSize="20dp"/>
+
+        <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ContactNumber"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/ContactName"
+                android:layout_alignParentLeft="true"
+                android:text="+915901038384" />
+
+        <ImageView
+                android:id="@+id/RemoveContact"
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:layout_margin="15dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_action_remove"/>
+    </RelativeLayout>
+
+    <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="#ddd"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout>

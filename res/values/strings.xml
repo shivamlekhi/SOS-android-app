@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SOS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu">Menu</string>
+    <string name="contactImage">Contact Image</string>
+    <string name="Emergency_message">Please help me I\'m in need\n\n\n Here is My Location</string>
+
+</resources>
